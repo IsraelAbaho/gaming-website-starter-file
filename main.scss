@@ -1,0 +1,644 @@
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: ;
+}
+:root {
+  --primaryColor: ;
+  --navBarColor: ;
+  --cartItemColor: ;
+  --secondColor: ;
+  --greyColor: ;
+  --whiteColor: ;
+}
+
+.lightTheme {
+  --primaryColor: ;
+  --navBarColor: ;
+  --cartItemColor: ;
+  --secondColor: ;
+  --greyColor: ;
+  --whiteColor: ;
+}
+
+body {
+ 
+}
+
+// Reusable CSS
+
+
+
+//Header SCSS ==============================>
+.header {
+  
+
+  .toggleIconDiv {
+  
+    .icon {
+    
+      &:hover {
+    
+      }
+    }
+  }
+
+  .logoDiv {
+  
+
+    .logoIcon {
+    
+    
+      &:hover {
+      
+      }
+    }
+  }
+
+  .accCart {
+  
+  
+
+    .icon {
+    
+      &:hover {
+      
+      }
+    }
+
+    .accDiv {
+     
+
+      .plainName {
+       
+      }
+    }
+  }
+}
+
+.headerShadow {
+
+}
+
+@media screen and (max-width: 768px) {
+  .navBar {
+    
+  }
+}
+.navLists {
+  
+
+  .navItem {
+ 
+
+    .navLink {
+      
+      &:hover {
+        
+      }
+    }
+  }
+}
+
+.closeIconDiv {
+  
+  &:hover {
+    
+  }
+
+  .closeIcon {
+    
+  }
+
+  &:hover .closeIcon {
+   
+  }
+}
+
+.showNavBar {
+  
+}
+
+// main section scss ==============================>
+.main {
+  
+
+  .bannerContent {
+   
+
+    .overlayText {
+      
+    }
+    .mainTextDiv {
+    
+      .mainTitle {
+       
+      }
+
+      .price {
+       
+        .previous {
+        
+        }
+        .current {
+         
+        }
+      }
+    }
+
+    .bannerImageDiv {
+    
+      .tur {
+        
+      }
+    }
+  }
+}
+
+// browser section SCSS =============================>
+.browser {
+
+  .ItemCard {
+    
+
+    &:hover {
+      
+    }
+    .cardText {
+     
+
+      .cardPrice {
+        small {
+         
+        }
+        .price {
+         
+        }
+      }
+
+      .name {
+      
+      }
+    }
+    img {
+     
+    }
+  }
+}
+
+// featured Section scss ==================>
+.sectionItem {
+  
+  &:hover {
+   
+  }
+  .itemDetails {
+    .name {
+     
+    }
+    small {
+     
+    }
+    .itemPrice {
+     
+    }
+  }
+}
+
+.toAddSection {
+  
+}
+
+.hidden {
+ 
+}
+
+// Players scss ================================>
+.playerSection {
+  .ItemCard {
+    
+
+    &:hover {
+      
+    }
+    .cardText {
+     
+
+      .cardPrice {
+        small {
+         
+        }
+        .price {
+         
+        }
+      }
+
+      .name {
+      
+      }
+    }
+    img {
+     
+    }
+  }
+
+  .contactDiv {
+    
+    .divLeft {
+     
+      .title {
+      
+      }
+      input {
+      
+        &::placeholder {
+         
+        }
+      }
+    }
+    .divRight {
+      small {
+       
+      }
+    }
+  }
+}
+
+// Footer section scss ===================================>
+.footer {
+ 
+}
+.footerSection {
+ 
+  .containerLeft {
+  
+    .socialIcons {
+      .icon {
+       
+        &:hover {
+         
+        }
+      }
+    }
+    .textList span {
+     
+      &:hover {
+       
+      }
+    }
+  }
+
+  .containerRight {
+  
+    p {
+     
+    }
+
+    .contactNumber {
+      
+
+      .title {
+       
+      }
+
+      .number {
+      
+      }
+    }
+  }
+}
+.footerBottomSection {
+ 
+  small {
+   
+  }
+  .footerLogo {
+   
+  }
+}
+
+// Cart Section ========================>
+.cart {
+  
+
+  .cartItem {
+    
+
+    .closeIconDiv {
+      
+      &:hover {
+      
+      }
+
+      .closeIcon {
+       
+      }
+
+      &:hover .closeIcon {
+        
+      }
+    }
+    .cartTitle {
+    
+      h2 {
+      
+      }
+    }
+
+    .itemsAdded {
+     
+    }
+
+    .item {
+     
+      &:hover {
+       
+        #deleteCartItem {
+       
+        }
+      }
+
+      .cartImg {
+        img {
+        
+        }
+      }
+
+      .ImageName {
+        
+        span {
+          
+        }
+        p {
+          
+        }
+      }
+
+      .itemControl {
+       
+        .icon {
+        
+          &:hover {
+           
+          }
+        }
+
+        span {
+          
+        }
+      }
+
+      #deleteCartItem {
+       
+
+        .icon {
+        
+        }
+      }
+    }
+
+    .paymentDiv {
+     
+      .divDetails {
+       
+
+        .paymentTitle {
+          h2 {
+            
+          }
+        }
+
+        span {
+         
+        }
+
+        img {
+          
+        }
+
+        form {
+          input {
+            
+            &::placeholder {
+             
+            }
+          }
+
+          .date__CVV {
+           
+
+            label {
+             
+            }
+          }
+
+          button {
+           
+           
+
+            &:hover {
+            
+          }
+        }
+      }
+
+      .paymentFooter {
+      
+        p {
+          
+        }
+      }
+    }
+  }
+}
+
+// MEDIA QUERIES ========================>
+
+@media screen and (min-width: 480px) {
+  .newGear .sectionBody {
+    
+  }
+  .itemControl {
+    
+  }
+}
+
+@media screen and (min-width: 560px) {
+  .browser {
+    .ItemCard {
+    
+      .cardText {
+       
+      }
+    }
+  }
+
+  .bannerImageDiv {
+    img {
+     
+    }
+  }
+}
+
+@media screen and (min-width: 668px) {
+  .bannerContent {
+    
+  }
+
+  .footerSection {
+    .containerLeft {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+
+  .playerSection {
+    .ItemCard {
+      display: flex;
+
+      .cardText {
+        display: grid;
+        gap: 4rem;
+      }
+      .redImage {
+        width: 220px;
+        height: auto;
+      }
+    }
+  }
+
+  .cartItem {
+    grid-template-columns: repeat(2, 1fr);
+    .cartTitle {
+      grid-column: 1/3;
+      grid-row: 1/2;
+    }
+  }
+  .paymentDiv {
+    border-radius: 10px !important;
+  }
+
+  .closeIconDiv {
+    top: 14px;
+  }
+}
+
+@media screen and (min-width: 770px) {
+  .plainName {
+    
+  }
+  .navLists {
+    
+    .navItem {
+      
+    }
+  }
+  .closeIconDiv {
+    
+  }
+
+  .browser {
+    
+  }
+  .newGear .sectionBody {
+    
+  }
+}
+@media screen and (min-width: 960px) {
+  .header {
+    
+  }
+
+  .sectionTop {
+    
+    .sectionTitle {
+     
+    }
+  }
+
+  .mainTextDiv {
+   
+  }
+
+  .main {
+   
+    .mainTitle {
+      
+    }
+  }
+  .newGear .sectionBody {
+    
+  }
+
+  .playerSection {
+    
+
+    .itemImage {
+      .blackImage {
+       
+      }
+    }
+  }
+  .contactDiv {
+    
+  }
+
+  .footerSection {
+   
+    .containerLeft {
+      
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+   
+  }
+
+  .section {
+    
+  }
+  .main {
+    
+    .mainTextDiv {
+   
+    }
+  }
+
+  .browser {
+    .ItemCard:hover img {
+      
+    }
+  }
+
+  .footerSection {
+  
+    .containerRight {
+     
+    }
+  }
+
+  .toAddSection {
+   
+  }
+
+  .cartItem {
+ 
+  }
+}
+
+::selection{
+ 
+}
+
+::-webkit-scrollbar{
+  
+  
+}
+::-webkit-scrollbar-thumb{
+
+}
